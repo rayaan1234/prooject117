@@ -1,0 +1,17 @@
+hs{
+    font-size:25px;
+}
+.btn-sucess:hover{
+    background-color:rgb(0, 140, 255);
+    font-size:40px;
+}
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example{
+    from{box-shadow:5px 10px 38px red;}
+    to{box-shadow:10px 10px 38px rgb(255,117,4);}
+}
